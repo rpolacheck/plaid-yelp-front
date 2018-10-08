@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Yelp from './Yelp';
 import './App.css';
+
+import Yelp from './Yelp';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Yelp />
+        <Yelp name="Gary Danko"></Yelp>
       </div>
     );
   }
